@@ -1,0 +1,21 @@
+# Large media: keep out of git
+projects/*/raw/*
+projects/*/work/*
+projects/*/output/*
+!projects/*/raw/.gitkeep
+!projects/*/work/.gitkeep
+!projects/*/output/.gitkeep
+
+*.mp4
+*.mov
+*.mkv
+*.avi
+*.webm
+*.wav
+*.mp3
+
+# System / editor
+.DS_Store
+Thumbs.db
+__pycache__/
+.venv/
